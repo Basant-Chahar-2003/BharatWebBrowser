@@ -1336,7 +1336,7 @@ const Domain_Names = [".AAA",
         input = input.toLowerCase();
         input = input.replace(' ','+');
         let basic_url = "https://www.google.com/search?q=";
-        let final_search_result2 = "https://search.brave.com/search?q="+input;
+        let final_search_result2 = "https://www.google.com/search?q="+input;
 
         btnOpen.addEventListener('click', () =>{
             window.open(final_search_result2,'_self');     
